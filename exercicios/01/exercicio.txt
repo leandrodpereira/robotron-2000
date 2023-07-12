@@ -1,0 +1,8 @@
+Utilizando JavaScript, substitua a frase dentro das 
+tags <p> </p> do projeto disponibilizado.
+Abra o projeto no navegador, aperte o atalho F12 e 
+realize a mudança escrevendo os comandos no console.
+
+Solução:
+
+document.getElementById('texto').innerText="Escreva o texto aqui"
