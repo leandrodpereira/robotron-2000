@@ -1,0 +1,28 @@
+Vamos exercitar a utilização do data-attribute em 
+funções neste desafio. Temos uma lista de cores 
+disponibilizada no código abaixo. Você irá criar um 
+botão que, ao ser clicado, faz aparecer esta lista, 
+e também criará um segundo botão que, ao ser clicado, 
+faz com que a lista de cores volte a sumir.
+
+*Data-attributes* são utilizados para guardar valores em 
+elementos HTML. Esses valores podem ser manipulados 
+através do JavaScript. Também é possível estilizar 
+elementos HTML com CSS referenciando o seu data-attribute. 
+Essa funcionalidade é bem recente no mundo do desenvolvimento,
+ sendo lançada na última versão do HTML(HTML5).
+
+ ->Propriedade parentNode: elemento pai.
+
+Data-attributes não devem ser utilizados para dados visíveis,
+pois tecnologias de acessibilidade podem não identificar 
+seus valores.
+
+
+
+Como fazer:
+
+->Utilize os códigos HTML e CSS disponibilizados;
+->Crie o arquivo de código JS;
+->Referencie o arquivo JS no HTML.
+
