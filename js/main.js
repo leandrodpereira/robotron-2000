@@ -19,6 +19,33 @@
 const controle = document.querySelectorAll("[data-controle]")
 const estatisticas = document.querySelectorAll("[data-estatistica]")
 
+const cores = {
+    "amarelo":{
+        "src": "img/robotron-amarelo.png",
+        "css-color": "yellow"
+    },
+    "azul":{
+        "src": "img/robotron-azul.png",
+        "css-color": "blue"
+    },
+    "branco":{
+        "src": "img/robotron-branco.png",
+        "css-color": "white"
+    },
+    "preto":{
+        "src": "img/robotron-preto.png",
+        "css-color": "black"
+    },
+    "rosa":{
+        "src": "img/robotron-rosa.png",
+        "css-color": "pink"
+    },
+    "vermelho":{
+        "src": "img/robotron-vermelho.png",
+        "css-color": "red"
+    }
+}
+
 const pecas = {
     "bracos": {
         "forca": 29,
