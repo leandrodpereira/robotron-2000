@@ -1,0 +1,4 @@
+Neste último desafio, você irá criar uma nova funcionalidade 
+em nosso projeto Robotron 2000! Esta funcionalidade permitirá 
+alterar a imagem do robô utilizando eventos de clique, assim, a 
+pessoa usuária pode escolher o robô com a cor que preferir.

@@ -18,33 +18,9 @@
 
 const controle = document.querySelectorAll("[data-controle]")
 const estatisticas = document.querySelectorAll("[data-estatistica]")
+const robo = document.querySelector('.robo')
 
-const cores = {
-    "amarelo":{
-        "src": "img/robotron-amarelo.png",
-        "css-color": "yellow"
-    },
-    "azul":{
-        "src": "img/robotron-azul.png",
-        "css-color": "blue"
-    },
-    "branco":{
-        "src": "img/robotron-branco.png",
-        "css-color": "white"
-    },
-    "preto":{
-        "src": "img/robotron-preto.png",
-        "css-color": "black"
-    },
-    "rosa":{
-        "src": "img/robotron-rosa.png",
-        "css-color": "pink"
-    },
-    "vermelho":{
-        "src": "img/robotron-vermelho.png",
-        "css-color": "red"
-    }
-}
+const coresArray = ['amarelo', 'azul', 'branco', 'preto', 'rosa', 'vermelho']
 
 const pecas = {
     "bracos": {
@@ -118,3 +94,21 @@ function manipulaEstatistica(peca){
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
   })
 }
+
+
+let i = 0;
+
+robo.src = 'img/robotron-'+coresArray[i]+'.png'
+
+function mudaCorRobo() {
+    if (i >= coresArray.length-1){
+        i = 0
+    } else{
+        i++         
+    } 
+    robo.src = 'img/robotron-'+coresArray[i]+'.png' 
+}
+
+robo.addEventListener("click", () => {           
+    mudaCorRobo()
+})
